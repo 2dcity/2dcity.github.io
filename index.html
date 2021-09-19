@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.8986bff4.css">
+<script src="/styles.8986bff4.js"></script></head>
+<body>
+  <h1><a id="who" target="_blank">Welcome to the 2dverse demo!</a></h1>
+  <button id="sign-in" class="signed-out" style="display: none">
+    Enter the 2dverse Metaverse with your NEAR Protocol Account ID
+  </button>
+  <p class="signed-out" style="display: none">
+      Not signed in
+  </p>
+  <p class="signed-in" style="display: none">
+      Signed in as <a id="account-id" href="https://wallet.nearprotocol.com/profile" target="_blank"></a>
+  </p>
+  <button id="say-hi" class="signed-in" style="display: none">
+    Go to 2dverse!
+  </button>
+  <p p="" class="signed-in" style="display: none">
+	or
+  </p>
+  <button class="signed-in" style="display: none">
+    <a href="#signout" id="sign-out">sign out</a>
+  </button>
+  <p>
+	This demo utilizes NEAR Protocol and Paras.id tech and was made for MetaBUIDL.
+  </p>
+  
+  <p>
+	It runs on the 2dverse engine (founded by [<a href="https://twitter.com/decentricity">decentricity.near</a>] and built by [<a href="https://blocksphere.id">Blocksphere</a>], [<a href="https://arsanesia.com">Arsanesia</a>], [<a href="https://uniqueone.network">UniqueOne.Network</a>], [<a href="https://myriad.social">Myriad Social</a>], [<a href="https://bittrees.org">Bittrees</a>], and DAORecords), which envisions a unique metaverse experience with the following tenets:
+  </p>
+  <ul>
+	<li>A casual, mobile-ready Metaverse, all in your browser</li>
+	<li>A focus on social immersion with voice chats and text messaging</li>
+	<li>A multichain Metaverse with the potential to integrate multiple blockchains into its login and NFT standards so avatars can “walk from chain to chain”.</li>
+  </ul>
+  <p>
+	The demo island is a fully functional prototype. Here’s the suggested user flow for the hackathon context:
+  </p>
+  <ul>
+	<li>Log in with your NEAR Protocol wallet (button on this page).</li>
+	<li>Create an avatar for your account</li>
+	<li>Walk around with your WASD / directional keys on non-touchscreen PCs, or with the joystick if on a touchscreen device (upper-mid-range mobile phones included).</li>
+	<li>Find lands that already have Paras.id NFTs on them, or find empty land.</li>
+	<li>Click on NFT objects to view details in-world, and then jump over to Paras.id</li>
+	<li>“Buy” land, without sending any tokens. Note that land that is not owned by anyone is denoted in black within the minimap. </li>
+	<li>Land you own is colored blue, and land owned by others is colored red.</li>
+	<li>Communicate with each other using Text Chat (press enter or press the message button on the top) or Voice Chat (allow the metaverse page to access your microphone, use the top left settings button to debug, and unmute the microphone icon)</li>
+	<li>Build on land that you own by pressing the “Edit” button while within the land. </li>
+	<li>Make sure to put up some walls before you go to the next step, so you can put up your NFTs!</li>
+	<li>Add NFTs from Paras.id by going to the Wall Decorations icon, pressing the upload icon, copy-pasting a valid Paras.id URL of a (static image) NFT, choosing the NFT from the bottom of the pallet, and clicking on a wall. </li>
+	<li>Saving your progress with the floppy disk icon and leaving the editor would put you back in the world with the NFT loaded.</li>
+  </ul>
+  <p>  
+	Known bugs:
+  </p>
+  <ul>
+	<li>After buying or editing land, the avatar may need to leave the land and come back to be able to see the change of state.</li>
+	<li>Some devices might experience errors that crash the webapp, in which case please simply hit refresh on the browser.</li>
+	<li>We currently only support static image NFTs from Paras.id</li>
+  </ul>
+  <button id="sign-in-2" class="signed-out" style="display: none">
+    Enter the 2dverse Metaverse with your NEAR Protocol Account ID
+  </button>
+  <button id="say-hi-2" class="signed-in" style="display: none">
+    Go to 2dverse!
+  </button>
+  <footer>
+	<p>
+	  Status : 
+	</p>
+    <p class="signed-in" style="display: none">
+      Signed in as <a id="account-id-2" href="https://wallet.nearprotocol.com/profile" target="_blank"></a>
+      • <a href="#signout" id="sign-out-2">sign out</a>
+    </p>
+	<p class="signed-out" style="display: none">
+      Not signed in
+    </p>
+  </footer>
+  <script src="/main.1f19ae8e.js"></script>
+</body>
+</html>
